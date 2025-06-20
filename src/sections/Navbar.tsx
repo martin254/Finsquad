@@ -1,9 +1,7 @@
 "use client";
 import Image from "next/image";
-import logoImage from '@/assets/images/logo.svg';
 import Logo from '@/assets/images/FinsquadLogo2.jpg'
 import Button from "@/components/Button";
-import { link } from "fs";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { AnimatePresence, motion } from "framer-motion";
