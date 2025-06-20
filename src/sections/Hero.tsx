@@ -1,8 +1,6 @@
 'use client';
 
 import Button from "@/components/Button";
-import designExample1Image from '@/assets/images/design-example-1.png';
-import designExample2Image from '@/assets/images/design-example-2.png';
 import Finsquad from '@/assets/images/Friendnotadded.jpg'
 import Challenge from '@/assets/images/FinSquadChallenge.jpg'
 import Image from "next/image";
