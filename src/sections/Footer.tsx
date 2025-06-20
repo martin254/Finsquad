@@ -1,11 +1,7 @@
 import Logo from '@/assets/images/FinsquadLogo2.jpg'
 import Image from 'next/image';
 
-const footerLinks = [
-    { href: "#", label: "Contact" },
-    { href: "#", label: "Privacy Policy" },
-    { href: "#", label: "Terms & Conditions" },
-];
+
 
 export default function Footer() {
     return (
