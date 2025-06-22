@@ -1,9 +1,7 @@
 "use client";
 import Image from "next/image";
-import logoImage from '@/assets/images/logo.svg';
-import Logo from '@/assets/images/FinsquadLogo2.jpg'
+import Logo from '@/assets/images/FinsquadLogo2.jpg';
 import Button from "@/components/Button";
-import { link } from "fs";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { AnimatePresence, motion } from "framer-motion";
@@ -51,9 +49,9 @@ export default function Navbar() {
                         <line x1="3" y1="6" x2="21" y2="6" className={twMerge("origin-left transition", isOpen && "rotate-45 -translate-y-1")}></line>
                         <line x1="3" y1="18" x2="21" y2="18" className={twMerge("origin-left transition", isOpen && "-rotate-45 translate-y-1")}></line>
                     </svg>
-                    <Button variant="secondary" className="hidden md:inline-flex items-center">Log In</Button>
-                    <Button variant="primary" className="hidden md:inline-flex items-center">Sign Up</Button>
-                    
+                    <a href="https://forms.gle/K46pfzi2sCN5Qm4WA" target="_blank" rel="noopener noreferrer">
+                    <Button variant="primary" className="hidden md:inline-flex items-center">Join WaitList</Button>
+                    </a>
                 </div>
             </div>
             <AnimatePresence>
@@ -70,8 +68,9 @@ export default function Navbar() {
                         {link.label}
                     </a>
                 ))}
-                <Button variant="secondary">Log In</Button>
-                <Button variant="primary">Sign Up</Button>
+                <a href="https://forms.gle/K46pfzi2sCN5Qm4WA" target="_blank" rel="noopener noreferrer">
+                <Button variant="primary">Join WaitList</Button>
+                </a>
                 </div>
             </motion.div>
             )}

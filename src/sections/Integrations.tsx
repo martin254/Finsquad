@@ -1,21 +1,19 @@
 import Tag from "@/components/Tag";
-import figmaIcon from "@/assets/images/figma-logo.svg";
-import starling from "@/assets/images/starling.png"
-import notionIcon from "@/assets/images/notion-logo.svg";
-import slackIcon from "@/assets/images/slack-logo.svg";
-import relumeIcon from "@/assets/images/relume-logo.svg";
-import framerIcon from "@/assets/images/framer-logo.svg";
-import githubIcon from "@/assets/images/github-logo.svg";
-import Image from "next/image";
+import Barclays from "@/assets/images/Barclays.jpg";
+import starling from "@/assets/images/Starling.svg";
+import HSBC from "@/assets/images/HSBC.png";
+import Lloyds from "@/assets/images/Lloyds.png";
+import stanchart from "@/assets/images/stanchart.png";
+import monzo from "@/assets/images/Monzo.png";
 import IntegrationColumn from "@/components/IntegrationsColumn";
 
 const integrations = [
-    { name: "Figma", icon: figmaIcon, description: "Figma is a collaborative interface design tool." },
-    { name: "Notion", icon: notionIcon, description: "Notion is an all-in-one workspace for notes and docs." },
-    { name: "Slack", icon: slackIcon, description: "Slack is a powerful team communication platform." },
-    { name: "Relume", icon: relumeIcon, description: "Relume is a no-code website builder and design system." },
-    { name: "Framer", icon: framerIcon, description: "Framer is a professional website prototyping tool." },
-    { name: "GitHub", icon: githubIcon, description: "GitHub is the leading platform for code collaboration." },
+    { name: "Starling", icon: starling},
+    { name: "HSBC", icon: HSBC },
+    { name: "Standard Chartered", icon: stanchart },
+    { name: "Monzo", icon: monzo },
+    { name: "Barclays", icon: Barclays },
+    { name: "Lloyds Banking Group", icon: Lloyds},
 ];
 
 export type IntegrationsType = typeof integrations;

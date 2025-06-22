@@ -1,15 +1,13 @@
 'use client';
 
 import Button from "@/components/Button";
-import designExample1Image from '@/assets/images/design-example-1.png';
-import designExample2Image from '@/assets/images/design-example-2.png';
-import Finsquad from '@/assets/images/Friendnotadded.jpg'
-import Challenge from '@/assets/images/FinSquadChallenge.jpg'
+import Challenge from '@/assets/images/FinSquadChallenge.jpg';
+import Finsquadss from '@/assets/images/finsquadss.jpg';
 import Image from "next/image";
 import Pointer from "@/components/Pointer";
 import { motion, useAnimate } from "framer-motion";
 import { useEffect } from "react";
-import cursorYouImage from "@/assets/images/cursor-you.svg"
+import cursorYouImage from "@/assets/images/cursor-you.svg";
 
 export default function Hero() {
     const [LeftDesignScope, LeftDesignAnimate] = useAnimate();
@@ -49,9 +47,9 @@ export default function Hero() {
     }}
     >
         <div className="container relative">
-            <motion.div ref={LeftDesignScope} initial = { {opacity : 0, y:100, x:-100}} drag className="absolute -left-64 top-16 hidden lg:block">
+            <motion.div ref={LeftDesignScope} initial = { {opacity : 0, y:100, x:-100}} drag className="absolute -left-32 top-36 hidden lg:block">
                 <Image 
-                src = {Finsquad}
+                src = {Finsquadss}
                 alt = "App Image"
                 draggable = "false"
                 width={300}
@@ -68,7 +66,7 @@ export default function Hero() {
                 <Pointer name="Enock"/>
             </motion.div>
 
-            <motion.div ref={RightDesignScope} initial = {{opacity : 0, x:100, y:100}}  drag className="absolute -right-64 top-16 hidden lg:block">
+            <motion.div ref={RightDesignScope} initial = {{opacity : 0, x:100, y:100}}  drag className="absolute -right-32 top-36 hidden lg:block">
                 <Image 
                 src = {Challenge}
                 alt = "App Image 2"
@@ -86,7 +84,7 @@ export default function Hero() {
 
             <div className="flex justify-center">
                 <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold">
-                    1000+ Signups on our app!
+                    50 Signups on our app!
                 </div>
             </div>
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-medium text-center mt-6 ">Finance is Better with Friends</h1>
@@ -104,7 +102,7 @@ export default function Hero() {
                 className="whitespace-nowrap" 
                 size="sm"
                 >
-                    Sign up
+                   Join the Waitlist
                 </Button>
             </form>
         </div>
