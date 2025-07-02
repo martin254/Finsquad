@@ -94,7 +94,7 @@ export default function Hero() {
             <div className="flex border border-white/15 rounded-full p-2 mt-8 max-w-lg mx-auto">
     <input 
         type="email" 
-        placeholder="Enter your email" 
+        placeholder="FinSquad.ai" 
         className="bg-transparent px-4 md:flex-1 w-full"
         disabled
     />
