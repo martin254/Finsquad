@@ -50,7 +50,7 @@ export default function Navbar() {
                         <line x1="3" y1="18" x2="21" y2="18" className={twMerge("origin-left transition", isOpen && "-rotate-45 translate-y-1")}></line>
                     </svg>
                     <a href="https://forms.gle/K46pfzi2sCN5Qm4WA" target="_blank" rel="noopener noreferrer">
-                    <Button variant="primary" className="hidden md:inline-flex items-center">Join WaitList</Button>
+                    <Button variant="primary" className="hidden md:inline-flex items-center">Join Private Beta</Button>
                     </a>
                 </div>
             </div>
@@ -69,7 +69,7 @@ export default function Navbar() {
                     </a>
                 ))}
                 <a href="https://forms.gle/K46pfzi2sCN5Qm4WA" target="_blank" rel="noopener noreferrer">
-                <Button variant="primary">Join WaitList</Button>
+                <Button variant="primary">Join Private Beta</Button>
                 </a>
                 </div>
             </motion.div>
