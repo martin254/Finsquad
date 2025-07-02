@@ -1,7 +1,7 @@
 'use client';
 
 import Button from "@/components/Button";
-import Challenge from '@/assets/images/FinSquadChallenge.jpg';
+import Challenge from '@/assets/images/ChallengeImage.jpg';
 import Finsquadss from '@/assets/images/finsquadss.jpg';
 import Image from "next/image";
 import Pointer from "@/components/Pointer";
