@@ -1,8 +1,8 @@
 'use client';
 
 import Button from "@/components/Button";
-import Challenge from '@/assets/images/ChallengeImage.jpg';
-import Finsquadss from '@/assets/images/finsquadss.jpg';
+import Challenge from '@/assets/images/iphoneapp2.png';
+import Finsquadss from '@/assets/images/finsquads.png';
 import Image from "next/image";
 import Pointer from "@/components/Pointer";
 import { motion, useAnimate } from "framer-motion";
