@@ -84,7 +84,7 @@ export default function Hero() {
 
             <div className="flex justify-center">
                 <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold">
-                    50+ Signups on our app!
+                    100+ Signups on our app!
                 </div>
             </div>
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-medium text-center mt-6 ">Finance is Better with Friends</h1>
