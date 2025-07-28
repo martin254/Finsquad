@@ -50,7 +50,7 @@ export default function PrivacyPolicyPage() {
 <p className="mb-4">We may update this Privacy Policy from time to time. Any changes will be communicated through the App or email, and your continued use of the Services constitutes acceptance of the updated Policy.</p>
 <h2 className="text-xl font-semibold mt-8 mb-2">10. Contact Us</h2>
 <p className="mb-4">For questions or concerns about this Privacy Policy, please contact us:</p>
-<p className="mb-4">Email:</p>
+<p className="mb-4">Email: crew@finsquad.ai </p>
 <p className="mb-4">By using FinSquad’s Services, you acknowledge that you have read, understood, and agreed to this Privacy Policy.</p>
       {/* Back to Home Button */}
       <div className="mt-10">
