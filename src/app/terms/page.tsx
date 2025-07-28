@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export default function TermsPage() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-12 text-white">
@@ -62,6 +63,15 @@ export default function TermsPage() {
 <p className="mb-4">For questions or concerns about these Terms, please contact us at:</p>
 <p className="mb-4">Email:</p>
 <p className="mb-4">By using the Services, you acknowledge that you have read, understood, and agreed to these Terms and Conditions.</p>
+      {/* Back to Home Button */}
+      <div className="mt-10">
+        <Link
+          href="/"
+          className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded transition"
+        >
+          ← Back to Home
+        </Link>
+      </div>
     </main>
   );
 }
