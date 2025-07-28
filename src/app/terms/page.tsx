@@ -61,7 +61,7 @@ export default function TermsPage() {
 <p className="mb-4">Opt-Out: If you wish to opt out of certain analytics features, you may contact us or adjust your account settings where applicable. Note that opting out may limit the functionality of gamification features.</p>
 <h2 className="text-xl font-semibold mt-8 mb-2">17. Contact Information</h2>
 <p className="mb-4">For questions or concerns about these Terms, please contact us at:</p>
-<p className="mb-4">Email:</p>
+<p className="mb-4">Email: crew@finsquad.ai </p>
 <p className="mb-4">By using the Services, you acknowledge that you have read, understood, and agreed to these Terms and Conditions.</p>
       {/* Back to Home Button */}
       <div className="mt-10">
