@@ -103,7 +103,7 @@ export default function Hero() {
         variant="primary" 
         className="whitespace-nowrap" 
         size="sm"
-        onClick={() => window.location.href = 'https://forms.gle/K46pfzi2sCN5Qm4WA'}
+        onClick={() => window.location.href = 'https://forms.office.com/e/Hn5xmhsTnf'}
     >
         Join Private Beta
     </Button>
